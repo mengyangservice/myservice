@@ -32,7 +32,7 @@
 /*    */ 
 /*    */   @Resource(name="newuserService")
 /*    */   private NewuserService newuserService;
-/*    */ 
+/*    */  
 /*    */   @RequestMapping(method={org.springframework.web.bind.annotation.RequestMethod.GET})
 /*    */   public void get(HttpServletRequest request, HttpServletResponse response)
 /*    */   {

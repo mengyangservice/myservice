@@ -34,7 +34,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			
 			 //	alert(goodid);
 				
-					window.location="ordergoods.action?openid=<%=request.getParameter("openid")%>&handleid=oBKxlty1azzX39wM9yJEZtMke6oo&goodid="+goodid;
+					window.location="ordergoods.action?openid=<%=request.getParameter("openid")%>&handleid=oQoPEs02EdLd4i1tuSqzTYE8xAAA&goodid="+goodid;
 			} 
 		</script>
 		  <style type="text/css">
