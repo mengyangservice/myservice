@@ -9,7 +9,7 @@ public class Constant
   public static final String EVENT_TYPE_CLICK = "CLICK";
 }
 
-/* Location:           /Users/geek/myweixin/WEB-INF/classes/
+/* Location:           
  * Qualified Name:     com.ifp.weixin.util.Constant
  * JD-Core Version:    0.6.2
  */

@@ -19,7 +19,7 @@ public abstract interface UserinfoService
   public abstract BaseDAO getMyDao();
 }
 
-/* Location:           /Users/geek/myweixin/WEB-INF/classes/
+/* Location:           
  * Qualified Name:     com.ifp.weixin.service.UserinfoService
  * JD-Core Version:    0.6.2
  */

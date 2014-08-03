@@ -11,7 +11,7 @@ public abstract interface CoreService
   public abstract String getAccessToken(String paramString1, String paramString2);
 }
 
-/* Location:           /Users/geek/myweixin/WEB-INF/classes/
+/* Location:           
  * Qualified Name:     com.ifp.weixin.biz.core.CoreService
  * JD-Core Version:    0.6.2
  */

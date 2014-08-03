@@ -107,7 +107,7 @@
 /*    */   }
 /*    */ }
 
-/* Location:           /Users/geek/myweixin/WEB-INF/classes/
+/* Location:           
  * Qualified Name:     com.ifp.weixin.ORM.Factory
  * JD-Core Version:    0.6.2
  */

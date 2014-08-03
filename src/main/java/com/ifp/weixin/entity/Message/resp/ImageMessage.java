@@ -14,7 +14,7 @@
 /*    */   }
 /*    */ }
 
-/* Location:           /Users/geek/myweixin/WEB-INF/classes/
+/* Location:           
  * Qualified Name:     com.ifp.weixin.entity.Message.resp.ImageMessage
  * JD-Core Version:    0.6.2
  */

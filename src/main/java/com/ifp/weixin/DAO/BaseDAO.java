@@ -30,7 +30,7 @@ public abstract interface BaseDAO
   public abstract int exeSql(String paramString);
 }
 
-/* Location:           /Users/geek/myweixin/WEB-INF/classes/
+/* Location:           
  * Qualified Name:     com.ifp.weixin.DAO.BaseDAO
  * JD-Core Version:    0.6.2
  */

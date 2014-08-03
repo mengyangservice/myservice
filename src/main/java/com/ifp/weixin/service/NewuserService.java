@@ -16,7 +16,7 @@ public abstract interface NewuserService
   public abstract boolean saveOrUpdateNewuser(Newuser paramNewuser);
 }
 
-/* Location:           /Users/geek/myweixin/WEB-INF/classes/
+/* Location:           
  * Qualified Name:     com.ifp.weixin.service.NewuserService
  * JD-Core Version:    0.6.2
  */
