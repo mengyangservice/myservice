@@ -111,7 +111,7 @@
 /*  127 */     Newuser newuser = this.newuserService.loadNewuserByuserid(userid);
 /*  128 */     if ((user == null) && (newuser == null))
 /*      */     {
-/*  131 */       String token = getAccessToken("wxab2c9ffb3c60ff14", "b3b5985710adabcfbce1daed8b156b29");
+/*  131 */       String token = getAccessToken("wx6cd8ba6f1933a62b", "1a8b831f4e4502ffccd16f6eec41c5df");
 /*      */ 
 /*  134 */       String[] para = new String[3];
 /*  135 */       para[0] = ("access_token=" + URLEncoder.encode(token));
@@ -210,7 +210,7 @@
 /*      */ 
 /*      */   String handleTasks(List<Tasks> ts, String str, String openid) {
 /*  232 */     String result = "";
-/*  233 */     if (ts.size() == 0) return "您好，有什么可以帮到您？XXXXXXXX任务.";
+/*  233 */     if (ts.size() == 0) return "您好，有什么可以帮到您？XXXXXXXXXXX任务.";
 /*  234 */     if (ts.size() == 1)
 /*      */     {
 /*  236 */       Tasks t = (Tasks)ts.get(0);
@@ -954,7 +954,7 @@
 /* 1174 */           System.out.println("感谢您关注偶");
 /* 1175 */           respContent = "感谢您关注偶,这里会给您提供最新的公司资讯和公告！\n";
 /*      */ 
-/* 1183 */           String token = getAccessToken("wxab2c9ffb3c60ff14", "b3b5985710adabcfbce1daed8b156b29");
+/* 1183 */           String token = getAccessToken("wx6cd8ba6f1933a62b", "1a8b831f4e4502ffccd16f6eec41c5df");
 /* 1184 */           String posturl = "https://api.weixin.qq.com/cgi-bin/qrcode/create?access_token=" + URLEncoder.encode(token);
 /* 1185 */           JSONObject obj = new JSONObject();
 /*      */ 

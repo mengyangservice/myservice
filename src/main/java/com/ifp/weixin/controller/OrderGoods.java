@@ -40,7 +40,7 @@
 /*  57 */     JSONObject scene = new JSONObject();
 /*     */ 
 /*  59 */     JSONObject content = new JSONObject();
-/*  60 */     String token = this.coreService.getAccessToken("wxab2c9ffb3c60ff14", "b3b5985710adabcfbce1daed8b156b29");
+/*  60 */     String token = this.coreService.getAccessToken("wx6cd8ba6f1933a62b", "1a8b831f4e4502ffccd16f6eec41c5df");
 /*     */     try
 /*     */     {
 /*  64 */       scene.element("touser", openid);
