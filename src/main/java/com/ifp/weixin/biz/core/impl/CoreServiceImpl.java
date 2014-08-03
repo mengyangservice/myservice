@@ -210,7 +210,7 @@
 /*      */ 
 /*      */   String handleTasks(List<Tasks> ts, String str, String openid) {
 /*  232 */     String result = "";
-/*  233 */     if (ts.size() == 0) return "您好，有什么可以帮到您？没有找到可以执行的任务.";
+/*  233 */     if (ts.size() == 0) return "您好，有什么可以帮到您？XXXXXXXX任务.";
 /*  234 */     if (ts.size() == 1)
 /*      */     {
 /*  236 */       Tasks t = (Tasks)ts.get(0);
